@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descrition" content="welcome to the lagerious in taj hotel">
+    <meta name="keyword" content="Taj hotel in india">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="./css/style.css" rel="stylesheet">
+    <title>Hotel Welcome | Contact</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+            <h1 class="logo"><a href="index.hotel">Taj</a></h1>
+            <ul>
+                <li><a  href="index.html">Home</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a class="curent" href="contact.html">Contact</a></li>
+            </ul>
+           </div>
+        </nav>
+    </header>
+
+    <section id="contact-form" class="py-3">
+        <div class="container">
+            <h1 class="l-heading"><span class="text-primary">Contact</span>Us</h1>
+            <p>Please fill out the form below to contact us</p>
+            <form action="process.php">
+
+                <div class="form-group">
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label><br>
+                    <input type="text" id="email" name="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="contact">Contact</label><br>
+                    <input type="text" id="contact" name="contact">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label><br>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+     <section id="contact-info" class="bg-dark">
+         <div class="container">
+            <div class="box ">
+                <i class="fas fa-hotel fa-3x"></i>
+                <h3> Location</h3>
+                <p>50 Main st,Taj Mumbai</p>
+            </div>
+            <div class="box ">
+                <i class="fas fa-phone fa-3x"></i>
+                <h3>Phone Number</h3>
+                <p>(523) 555-555</p>
+            </div>
+            <div class="box "> 
+                <i class="fas fa-envelop fa-3x"></i>
+                <h3>Email Address</h3>
+                <p>tajhotelmum22@gmail.com</p>
+            </div>
+         </div>
+     </section>
+    
+    <!-- Footer -->
+
+    <footer id="main-footer">
+        <p>Hotel Taj &copy; 2020 All Right Reserved</p>
+    </footer>
+</body>
+</html>
